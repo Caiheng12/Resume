@@ -1,0 +1,328 @@
+/*!mycenter/modules/common/main.less*/
+h2,h3,h4,p {
+    margin: 0
+}
+
+.container {
+    width: 1024px;
+    margin: 35px auto 0;
+    padding-bottom: 80px
+}
+
+/*!mycenter/modules/simple_preview_new/preview_new/main.less*/
+.basic {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #FAFAFA;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #E3EBE9;
+    display: flex
+}
+
+.basic .basic-photo {
+    height: 88px;
+    width: 88px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer
+}
+
+.basic .basic-photo img {
+    height: 88px;
+    width: 88px;
+    position: absolute;
+    top: 0;
+    border-radius: 50%
+}
+
+.basic .basic-photo .basic-photo_shadow {
+    display: none
+}
+
+.basic .basic-photo:hover .basic-photo_shadow {
+    display: block
+}
+
+.basic .basic-info {
+    position: relative;
+    width: 100%;
+    margin-left: 20px;
+    flex: 1
+}
+
+.basic .basic-info .basic-name-area {
+    overflow: hidden;
+    height: 37px;
+    margin-bottom: 11px
+}
+
+.basic .basic-info .basic-name {
+    float: left;
+    max-width: 250px;
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.basic .basic-info .icon-sex {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 6px;
+    background-position: -4px -7px
+}
+
+.basic .basic-info .basic-self {
+    margin-top: 20px
+}
+
+.basic .basic-info p {
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    margin-top: 6px
+}
+
+.basic .basic-info .basic-tel {
+    margin-right: 20px;
+    margin-left: -4px;
+}
+
+.basic .basic-info .basic-tel span {
+    vertical-align: middle
+}
+
+.basic .basic-info .basic-email span {
+    vertical-align: middle
+}
+
+.basic .basic-info .basic-tel_icon {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.basic .basic-info .basic-email_icon {
+    width: 16px;
+    height: 18px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.per .per-self_content {
+    position: relative;
+}
+
+.per .per-self_content .per-self_des {
+    margin-top: 13px;
+    font-size: 14px;
+    color: #666;
+    line-height: 30px
+}
+
+.per .per-self_content .per-self_des p {
+    margin-top: 0
+}
+
+.per .per-self_content .per-self_des ol {
+    list-style-type: decimal;
+    -webkit-padding-start: 20px
+}
+
+.per .per-self_content .per-self_des ul {
+    list-style: disc;
+    -webkit-padding-start: 20px
+}
+
+.per .per-self_content span {
+    color: #999
+}
+
+.work-exp .mr-template_title .work-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    position: relative;
+    margin-left: 10px
+}
+
+.work-exp .mr-template_title .work-title:before {
+    content: '';
+    display: block;
+    border-left: 3px solid #00B38A;
+    height: 16px;
+    width: 3px;
+    position: absolute;
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.work-exp .work-exp_list {
+    position: relative;
+    margin-bottom: 30px
+}
+
+.work-exp .work-exp_list .exp-list_time {
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    right: 0
+}
+
+.work-exp .work-exp_list .exp-list_top {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.work-exp .work-exp_list .exp-list_top img {
+    width: 46px;
+    height: 46px;
+    margin-right: 10px
+}
+
+.work-exp .work-exp_list .exp-list_top .exp-list_right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 46px;
+    justify-content: space-between
+}
+
+.work-exp .work-exp_list .exp-list_content,.work-exp .work-exp_list .exp-list_content_highlight {
+    font-size: 14px;
+    color: #666;
+    line-height: 30px
+}
+
+.edu-exp .edu-exp_list {
+    position: relative;
+    margin-bottom: 0px
+}
+
+.edu-exp .edu-exp_list .exp-list_time {
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    right: 0
+}
+
+.edu-exp .edu-exp_list .exp-list_top {
+    display: flex;
+    align-items: center
+}
+
+.edu-exp .edu-exp_list .exp-list_top img {
+    width: 46px;
+    height: 46px;
+    margin-right: 10px
+}
+
+.edu-exp .edu-exp_list .exp-list_top .exp-list_right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 46px;
+    justify-content: space-between
+}
+
+.lock-scroll {
+    overflow: hidden!important
+}
+
+.container {
+    margin: 0 auto;
+    padding-bottom: 0
+}
+
+.myresume {
+    width: 720px;
+    margin: 50px auto 54px;
+    border: 1px solid #e3ebe9;
+    border-radius: 5px
+}
+
+.myresume pre {
+    white-space: pre-line
+}
+
+.mr-template {
+    padding: 30px 50px 10px
+}
+
+.edu-exp_group{
+    margin-top: 20px;
+}
+
+.mr-template .mr-template_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mr-template .mr-template_title span {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    position: relative;
+    margin-left: 10px
+}
+
+.mr-template .mr-template_title span:before {
+    content: '';
+    display: block;
+    border-left: 3px solid #00B38A;
+    height: 16px;
+    width: 3px;
+    position: absolute;
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.mr-template .mr_md_del {
+    right: -9px;
+    left: unset
+}
+
+.mr-template .mr_md_del .mr_tip_div {
+    line-height: 50px
+}
+
+.mr-template .mr_md_del .mr_tip_des {
+    margin: 39px 0 32px
+}
+
+.edit-btn {
+    display: none
+}
+
+.add-btn {
+    display: none
+}
+
+.dn {
+    display: none
+}
+
+.active-color {
+    color: #00B38A
+}
+
+#baseInfo.basic .basic-photo:hover .basic-photo_shadow {
+    display: none
+}
+
+#baseInfo.basic .basic-photo {
+    cursor: auto
+}
